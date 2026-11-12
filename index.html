@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora básica</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main id="calculadora">
+    <h1>Calculadora básica</h1>
+
+    <div id="pantalla">0</div>
+
+    <div id="botones">
+      <button class="boton boton-limpiar" id="limpiar">C</button>
+      <button class="boton boton-operacion" data-operacion="/">÷</button>
+      <button class="boton boton-operacion" data-operacion="*">×</button>
+      <button class="boton boton-operacion" data-operacion="-">−</button>
+
+      <button class="boton boton-numero" data-numero="7">7</button>
+      <button class="boton boton-numero" data-numero="8">8</button>
+      <button class="boton boton-numero" data-numero="9">9</button>
+      <button class="boton boton-operacion" data-operacion="+">+</button>
+
+      <button class="boton boton-numero" data-numero="4">4</button>
+      <button class="boton boton-numero" data-numero="5">5</button>
+      <button class="boton boton-numero" data-numero="6">6</button>
+      <button class="boton boton-resultado" id="resultado">=</button>
+
+      <button class="boton boton-numero" data-numero="1">1</button>
+      <button class="boton boton-numero" data-numero="2">2</button>
+      <button class="boton boton-numero" data-numero="3">3</button>
+
+      <button class="boton boton-numero boton-cero" data-numero="0">0</button>
+      <button class="boton boton-numero" id="punto" data-numero=".">.</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
